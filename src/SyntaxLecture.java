@@ -125,6 +125,7 @@ public class SyntaxLecture {
 
         double num3 = 3.1;
         float num4 = (float) num3;
+
 //                 float num4 = (float) num3;
 //
         System.out.println(num4);
