@@ -10,7 +10,7 @@ public class MethodsExercises {
         modulus(15,6);
         //Bonus
         multiplicationLoop(5,5);
-        multiRecursion();
+        System.out.println(multiplicationRecursion(10,10));
     }
 
     //Basic Arithmetic
@@ -51,12 +51,12 @@ public class MethodsExercises {
         System.out.println(result);
     }
     //Recursion
-    public static void multiRecursion(int a, int b) {
+    public static int multiplicationRecursion(int a, int b) {
 
         if ((a == 0) || (b == 0))
-            System.out.println(0);
+            return 0;
         else
-            System.out.println((a + multiRecursion(a, b - 1);));
+            return (a + multiplicationRecursion(a, b - 1));
 
     }
 
