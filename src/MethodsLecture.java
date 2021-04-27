@@ -14,7 +14,7 @@ public class MethodsLecture {
 
 //        countToLoop(100);
 
-        countTo100(101);
+        countTo100(50);
     }
 
     //no inputs and no outputs
