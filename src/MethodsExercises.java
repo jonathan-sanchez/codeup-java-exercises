@@ -11,9 +11,10 @@ public class MethodsExercises {
         //Bonus
         multiplicationLoop(5,5);
         System.out.println(multiplicationRecursion(10,10));
+        intBetweenOneAndTen(1,10);
     }
 
-    //Basic Arithmetic
+    //Section #1 Basic Arithmetic Methods
     //a. create four separate methods, each will perform an arithmetic operation.
     //Addition
     public static void addition(double num1, double num2){
@@ -60,5 +61,17 @@ public class MethodsExercises {
 
     }
 
-
+    //#2 Create a method that validates that user input is in a certain range
+    public static int intBetweenOneAndTen(int min, int max) {
+        System.out.println("Enter a number between 1 and 10:\n");
+        int userInput = intBetweenOneAndTen(1, 10);
+        if (userInput > min && userInput < max) {
+            System.out.printf("Congrats, your input of %d was within our min and max!", userInput);
+        }
+//        for (int i = 1; i < 10; i++) {
+//            if (userInput > min && userInput < max) ;
+//            System.out.println("Congrats! Your input is in range!");
+//        return userInput;
+    }
 }
+
