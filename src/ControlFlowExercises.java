@@ -63,8 +63,23 @@ public class ControlFlowExercises {
         //#3
         //Display table of powers
 
+
         //#4
         //Convert given number grades into letter grades
-        int willContinue = false;
+        do{
+
+        if (userInput >= 88 && userInput <= 100)
+            System.out.print("Hey! you got an: A");
+        else if (userInput >= 80 && userInput <= 87)
+            System.out.print("Hey! you got an: B");
+        else if (userInput >= 67 && userInput <= 79)
+            System.out.print("You got an: C");
+        else if (userInput >= 60 && userInput <= 66)
+            System.out.print("Sorry, You got an: D");
+        else if (userInput >= 0 && userInput <= 59)
+            System.out.print("Sorry, You got an: F");
+    } else {
+        System.out.println("Invalid grade entered.");
+    }
     }
 }
