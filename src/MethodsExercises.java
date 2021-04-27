@@ -8,6 +8,9 @@ public class MethodsExercises {
         multiplication(10,10);
         division(100,5);
         modulus(15,6);
+        //Bonus
+        multiplicationLoop(5,5);
+        multiRecursion();
     }
 
     //Basic Arithmetic
@@ -38,5 +41,24 @@ public class MethodsExercises {
         double result = num1 % num2;
         System.out.println(result);
     }
+    //Bonus
+    //Create your multiplication method without using the * operator.
+    public static void multiplicationLoop(int a, int b) {
+        int result = 0;
+        for (int i = 0; i < a; i++) {
+            result += b;
+        }
+        System.out.println(result);
+    }
+    //Recursion
+    public static void multiRecursion(int a, int b) {
+
+        if ((a == 0) || (b == 0))
+            System.out.println(0);
+        else
+            System.out.println((a + multiRecursion(a, b - 1);));
+
+    }
+
 
 }
