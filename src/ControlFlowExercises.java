@@ -47,15 +47,24 @@ public class ControlFlowExercises {
 //            }
 //        }
 
-        //FizzBuzz
-        //#1 1 to 100
-        for (int i = 1; i <= 100; i++) {
-            System.out.println(i);
+        //#2 FizzBuzz
+        //#1 for loop from 1 to 100
+        int oneHunnit = 100;
+        for (int i = 1; i <= oneHunnit; i++) {
+            //multiples of three and five print "FizzBuzz"
+            if (i % (3*5) == 0) System.out.println("FizzBuzz");
+            //multiples of three print "Fizz"
+            else if(i % 3 == 0) System.out.println("Fizz");
+            //multiples of 5 print "Buzz"
+            else if (i % 5 == 0) System.out.println("Buzz");
+            else System.out.println(i);
+        } //Working great!
 
-            //#2 multiples of three print "Fizz"
-            if (i % 3 == 0) {
-                System.out.println(Fizz);
-            }
-        }
+        //#3
+        //Display table of powers
+
+        //#4
+        //Convert given number grades into letter grades
+        int willContinue = false;
     }
 }
