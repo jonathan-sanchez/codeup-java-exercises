@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MethodsExercises {
     public static void main(String[] args){
         System.out.println("Welcome to Method Exercises!");
@@ -11,7 +13,7 @@ public class MethodsExercises {
         //Bonus
         multiplicationLoop(5,5);
         System.out.println(multiplicationRecursion(10,10));
-        intBetweenOneAndTen(1,10);
+//        intBetweenOneAndTen(1,10);
     }
 
     //Section #1 Basic Arithmetic Methods
@@ -62,16 +64,30 @@ public class MethodsExercises {
     }
 
     //#2 Create a method that validates that user input is in a certain range
-    public static int intBetweenOneAndTen(int min, int max) {
+//    public static int intBetweenOneAndTen(int min, int max) {
+//        System.out.println("Enter a number between 1 and 10:\n");
+//        int userInput = intBetweenOneAndTen(1, 10);
+//        if (userInput > min && userInput < max) {
+//            System.out.printf("Congrats, your input of %d was within our min and max!", userInput);
+//        }
+////        for (int i = 1; i < 10; i++) {
+////            if (userInput > min && userInput < max) ;
+////            System.out.println("Congrats! Your input is in range!");
+////        return userInput;
+//    }
+
+    //#3
+    public static String factorialLoop(){
+        Scanner userFactor = new Scanner(System.in);
         System.out.println("Enter a number between 1 and 10:\n");
-        int userInput = intBetweenOneAndTen(1, 10);
-        if (userInput > min && userInput < max) {
-            System.out.printf("Congrats, your input of %d was within our min and max!", userInput);
+        int userInput = userFactor.nextInt();
+        System.out.println("The number you entered is: " + userInput);
+        System.out.println("Would you like to enter another number?");
+        int userInput2 = userFactor.nextInt();
+        System.out.println("Your second number is: " + userInput2);
+        for(){
+            
         }
-//        for (int i = 1; i < 10; i++) {
-//            if (userInput > min && userInput < max) ;
-//            System.out.println("Congrats! Your input is in range!");
-//        return userInput;
     }
 }
 
