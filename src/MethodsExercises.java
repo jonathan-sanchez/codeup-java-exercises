@@ -14,6 +14,7 @@ public class MethodsExercises {
         multiplicationLoop(5,5);
         System.out.println(multiplicationRecursion(10,10));
 //        intBetweenOneAndTen(1,10);
+        factorialLoop();
     }
 
     //Section #1 Basic Arithmetic Methods
@@ -85,9 +86,11 @@ public class MethodsExercises {
         System.out.println("Would you like to enter another number?");
         int userInput2 = userFactor.nextInt();
         System.out.println("Your second number is: " + userInput2);
-        for(){
-            
+        for(int i = 0;){
+
         }
     }
+
+    //#4
 }
 
