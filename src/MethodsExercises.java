@@ -14,7 +14,7 @@ public class MethodsExercises {
         multiplicationLoop(5,5);
         System.out.println(multiplicationRecursion(10,10));
 //        intBetweenOneAndTen(1,10);
-        factorialLoop();
+//        factorialLoop();
     }
 
     //Section #1 Basic Arithmetic Methods
@@ -78,18 +78,18 @@ public class MethodsExercises {
 //    }
 
     //#3
-    public static String factorialLoop(){
-        Scanner userFactor = new Scanner(System.in);
-        System.out.println("Enter a number between 1 and 10:\n");
-        int userInput = userFactor.nextInt();
-        System.out.println("The number you entered is: " + userInput);
-        System.out.println("Would you like to enter another number?");
-        int userInput2 = userFactor.nextInt();
-        System.out.println("Your second number is: " + userInput2);
-        for(int i = 0;){
-
-        }
-    }
+//    public static String factorialLoop(){
+//        Scanner userFactor = new Scanner(System.in);
+//        System.out.println("Enter a number between 1 and 10:\n");
+//        int userInput = userFactor.nextInt();
+//        System.out.println("The number you entered is: " + userInput);
+//        System.out.println("Would you like to enter another number?");
+//        int userInput2 = userFactor.nextInt();
+//        System.out.println("Your second number is: " + userInput2);
+//        for(int i = 0;){
+//
+//        }
+//    }
 
     //#4
 }
