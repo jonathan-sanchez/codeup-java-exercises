@@ -1,20 +1,18 @@
-import java.util.Scanner;
-
 public class MethodsExercises {
-    public static void main(String[] args){
+    public static void main(string[] args){
         System.out.println("Welcome to Method Exercises!");
 
         //Call methods here
-        addition(5,5);
-        subtraction(10,5);
-        multiplication(10,10);
-        division(100,5);
-        modulus(15,6);
-        //Bonus
-        multiplicationLoop(5,5);
-        System.out.println(multiplicationRecursion(10,10));
+//        addition(5,5);
+//        subtraction(10,5);
+//        multiplication(10,10);
+//        division(100,5);
+//        modulus(15,6);
+//        //Bonus
+//        multiplicationLoop(5,5);
+//        System.out.println(multiplicationRecursion(10,10));
 //        intBetweenOneAndTen(1,10);
-//        factorialLoop();
+////        factorialLoop();
     }
 
     //Section #1 Basic Arithmetic Methods

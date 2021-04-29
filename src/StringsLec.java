@@ -1,5 +1,5 @@
 public class StringsLec {
-    public static void main(String[] args){
+    public static void main(string[] args){
         // ' ~ " * "strings" * " ~ '
         //Strings can be given a more formal definition - some letters, numbers, and special characters combined (STRUNG together) in some fashion
         //In Java . . they are not primitives! They are objects - your variables are a reference type instead. That means == asks if both sides have the same reference vs value

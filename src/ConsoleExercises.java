@@ -1,8 +1,7 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ConsoleExercises {
-    public static void main(String[] args){
+    public static void main(string[] args){
         //#1 //Write some Java code to output the following: 'The value of pi is approximately 3.14.'
 //        double pi = 3.14159;
 //        System.out.format("The value of pi is approximately %.2f.\n", pi);
