@@ -131,9 +131,19 @@ public class ArraysLec_handout {
                 {7, 8, 9}
         };
 
-        for (int[] rows : ticTacToe){
+        for (int[] row : ticTacToe){
             System.out.println("+---+---+---+");
+            System.out.print("| ");
+
+            for (int number : row) {
+                System.out.print(number + " | ");
+            }
+            System.out.println();
         }
+        System.out.println("+---+---+---+");
+
+        System.out.println("ticTacToe[0][0] = " + ticTacToe[0][0]); //row 1, col 1
+
         //~*~ 2d Arrays (enter the matrix) ~*~
 
         //2d Arrays (commonly referred to as an array matrix) are daunting to encounter for the first time. . but, imagine you are working with a grid/spreadsheet
@@ -162,20 +172,20 @@ public class ArraysLec_handout {
 
         //TODO Interactive: Help me out here, if matrix[0][0] worked as demonstrated above, can you help me print out the "5" and "9"?
 
-        System.out.println(matrix[1][1]);
-        System.out.println(matrix[2][2]);
+//        System.out.println(matrix[1][1]);
+//        System.out.println(matrix[2][2]);
 
         //TODO: Emergency! Emergency! Alien invaders have been detected at int 6, int 7, and int 2 in our grid area! Dispatch our MIB forces to the appropriate parts of the array by finishing my System.outs!
 
-        System.out.println();
-        System.out.println("ALERT ** ALERT ** ALERT **");
-        System.out.println("|| ALIEN ACTIVITY DETECTED IN OUR GRID ||");
-        System.out.println("** ALERT ** ALERT ** ALERT");
-        System.out.println("Deploying MIB personnel to counter alien activity!");
-        System.out.println("MIB Officer Douglas H. headed to grid area " + matrix[1][2] + "!"); //should say "grid area 6!"
-        System.out.println("MIB Officer Larry C. headed to grid area " + matrix[2][0] + "!"); //should say "grid area 7!"
-        System.out.println("MIB Officer Kenneth H. headed to grid area " + matrix[0][1] + "!"); //should say "grid area 2!"
-        System.out.println("All threats neutralized.");
+//        System.out.println();
+//        System.out.println("ALERT ** ALERT ** ALERT **");
+//        System.out.println("|| ALIEN ACTIVITY DETECTED IN OUR GRID ||");
+//        System.out.println("** ALERT ** ALERT ** ALERT");
+//        System.out.println("Deploying MIB personnel to counter alien activity!");
+//        System.out.println("MIB Officer Douglas H. headed to grid area " + matrix[1][2] + "!"); //should say "grid area 6!"
+//        System.out.println("MIB Officer Larry C. headed to grid area " + matrix[2][0] + "!"); //should say "grid area 7!"
+//        System.out.println("MIB Officer Kenneth H. headed to grid area " + matrix[0][1] + "!"); //should say "grid area 2!"
+//        System.out.println("All threats neutralized.");
 
 
 
