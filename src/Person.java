@@ -1,8 +1,12 @@
 public class Person {
     private String name;
 
-    public String getName(String name){
-        System.out.println();
+    public Person() {
+        System.out.println("The Goat is being created!");
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     public void setName(String name){
