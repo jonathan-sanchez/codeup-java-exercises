@@ -17,11 +17,17 @@ public class ArrayExercises {
         saiyans[1] = new Person("Vegeta");
         saiyans[2] = new Person("Gohan");
 
-        for (int i = 0; i < saiyans.length; i ++){
-            System.out.println(saiyans[i].getName());
+
+        Person trunks = new Person("Trunks");
+
+
+        for (int i = 0; i < saiyans.length + 1; i ++){
+            System.out.println(addPerson(saiyans, trunks)[i].getName());
         }
-
-        Person Trunks = new Person("Trunks");
-
+    }
+    public static Person[] addPerson(Person[] saiyans, Person person) {
+        Person[] newSaiyan = Arrays.copyOf(saiyans, saiyans.length + 1);
+        newSaiyan[saiyans.length] = person;
+        return newSaiyan;
     }
 }
