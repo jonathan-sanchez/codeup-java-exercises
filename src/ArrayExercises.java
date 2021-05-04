@@ -19,7 +19,7 @@ public class ArrayExercises {
 
         System.out.println();
 
-        for(){
+        for(String[]  : saiyans){
 
         }
 
