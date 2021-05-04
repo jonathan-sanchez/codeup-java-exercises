@@ -3,7 +3,6 @@ package InheritanceAndPolymorphism;
 import oopLecture.Person;
 
 public class Employee extends Person {
-
     private double salary;
 
     public Employee(String firstName, String lastName) {
