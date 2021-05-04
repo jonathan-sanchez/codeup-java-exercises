@@ -42,4 +42,7 @@ public class Person {
 
 //        System.out.println("Person.firstName = " + Person.firstName); //This will not compile - instant error and the java program will not continue until refactored.
     }
+
+    public String sayHello() {
+    }
 }
