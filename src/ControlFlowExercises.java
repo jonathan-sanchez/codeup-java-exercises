@@ -77,8 +77,7 @@ public class ControlFlowExercises {
 //        System.out.println("number | squared | cubed");
 //        System.out.println("------ | ------ | ------");
 //        for (int i = 1; i <= userInt; i++) {
-//            //Print the table
-//            System.out.println("%-6d | %-7d | %d\n", i, i * i, i * i * i);
+//            System.out.printf("%-6d | %-7d | %d\n", i, i * i, i * i * i);
 //        }
 //        System.out.println("Do you want to continue?");
 //        String userResponse = scanner.next();
@@ -92,36 +91,36 @@ public class ControlFlowExercises {
         //Convert given number grades into letter grades
 //        do{
 
-       Scanner scanner = new Scanner(System.in);
-
-       boolean anotherGrade = true;
-
-       do {
-           System.out.println("Please enter a numerical grade from 0 to 100.");
-           int numGrade = scanner.nextInt();
-
-           if (numGrade >= 99) {
-               System.out.println("A+");
-           } else if (numGrade >= 88 && numGrade <= 90) {
-               System.out.println("A-");
-           } else if (numGrade >= 88) {
-               System.out.println("A");
-           } else if ( numGrade >= 80 ) {
-               System.out.println("B");
-           } else if ( numGrade >= 67 ) {
-               System.out.println("C");
-           } else if ( numGrade >= 60) {
-               System.out.println("D");
-           } else {
-               System.out.println("F");
-           }
-
-           System.out.println("Do you want to enter another grade?");
-           String userResponse = scanner.next();
-           if(!userResponse.equalsIgnoreCase("y")) {
-               anotherGrade = false;
-           }
-       } while (anotherGrade);
+//       Scanner scanner = new Scanner(System.in);
+//
+//       boolean anotherGrade = true;
+//
+//       do {
+//           System.out.println("Please enter a numerical grade from 0 to 100.");
+//           int numGrade = scanner.nextInt();
+//
+//           if (numGrade >= 99) {
+//               System.out.println("A+");
+//           } else if (numGrade >= 88 && numGrade <= 90) {
+//               System.out.println("A-");
+//           } else if (numGrade >= 88) {
+//               System.out.println("A");
+//           } else if ( numGrade >= 80 ) {
+//               System.out.println("B");
+//           } else if ( numGrade >= 67 ) {
+//               System.out.println("C");
+//           } else if ( numGrade >= 60) {
+//               System.out.println("D");
+//           } else {
+//               System.out.println("F");
+//           }
+//
+//           System.out.println("Do you want to enter another grade?");
+//           String userResponse = scanner.next();
+//           if(!userResponse.equalsIgnoreCase("y")) {
+//               anotherGrade = false;
+//           }
+//       } while (anotherGrade);
        }
     }
 

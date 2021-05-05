@@ -43,24 +43,24 @@ public class ConsoleExercises {
 //        System.out.printf("The perimeter is: %d\n", perimeter);
 
         //Bonus:
-        sc.useDelimiter("\n");
-        System.out.print("What is the length of the codeup classroom.\n");
-        double length = sc.nextDouble();
-
-//        System.out.println("Please enter the width of the classroom.\n");
-        double width = sc.nextDouble();
-
-//        System.out.println("Please enter the height of the classroom.\n");
-        double height = sc.nextDouble();
-
-        System.out.printf("Length = %f, width = %f, height = %f\n", length, width, height);
-
-        double area = length * width;
-        double perimeter = (length * 2) + (width * 2);
-        double volume = area * height;
-
-        System.out.printf("The area is: %f\n", area);
-        System.out.printf("The perimeter is: %f\n", perimeter);
-        System.out.printf("The volume is: %f\n", volume);
+//        sc.useDelimiter("\n");
+//        System.out.print("What is the length of the codeup classroom.\n");
+//        double length = sc.nextDouble();
+//
+////        System.out.println("Please enter the width of the classroom.\n");
+//        double width = sc.nextDouble();
+//
+////        System.out.println("Please enter the height of the classroom.\n");
+//        double height = sc.nextDouble();
+//
+//        System.out.printf("Length = %f, width = %f, height = %f\n", length, width, height);
+//
+//        double area = length * width;
+//        double perimeter = (length * 2) + (width * 2);
+//        double volume = area * height;
+//
+//        System.out.printf("The area is: %f\n", area);
+//        System.out.printf("The perimeter is: %f\n", perimeter);
+//        System.out.printf("The volume is: %f\n", volume);
     }
 }
