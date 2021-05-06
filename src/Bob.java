@@ -8,7 +8,8 @@ public class Bob {
         grumpyOlBob();
     }
 
-    public static void grumpyOlBob() {
+    public static boolean grumpyOlBob() {
+        boolean moreBob = true;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ask bob a question!");
@@ -21,9 +22,19 @@ public class Bob {
         } else if (userInput == "") {
             System.out.println("Fine, be that way!");
         } else {
-            System.out.println("Whatever.");
+            System.out.println("Eh, whatever man.");
         }
 
+        System.out.println("Anything else you wanna say to Bob?");
+
+        String stillTalking = sc.nextLine();
+
+       for (int i = 0; i < stillTalking.length(); i++) {
+           if (userInput.equalsIgnoreCase("yes")) {
+               return true;
+           }
+        }
+        return grumpyOlBob();
     }
 }
 
