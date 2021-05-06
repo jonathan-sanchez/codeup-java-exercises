@@ -32,6 +32,8 @@ public class Bob {
        for (int i = 0; i < stillTalking.length(); i++) {
            if (userInput.equalsIgnoreCase("yes")) {
                return true;
+           } else if(userInput.equalsIgnoreCase("no")) {
+               return false;
            }
         }
         return grumpyOlBob();
