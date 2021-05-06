@@ -2,30 +2,30 @@ package util;
 
 import java.util.Scanner;
 
-public class Input {
+public class Input{
     private Scanner scanner;
-
-    String getString() {
-
-    }
-
-    boolean yesNo() {
-
-    }
-
-    int getInt(int min, int max) {
-
-    }
-
-    int getInt() {
-
-    }
-
-    double getDouble(double min, double max) {
-
-    }
-
-    double getDouble() {
-
-    }
+//
+//    String getString() {
+//        if ()
+//    }
+//
+//    boolean yesNo() {
+//        if ()
+//    }
+//
+//    int getInt(int min, int max) {
+//
+//    }
+//
+//    int getInt() {
+//
+//    }
+//
+//    double getDouble(double min, double max) {
+//
+//    }
+//
+//    double getDouble() {
+//
+//    }
 }
