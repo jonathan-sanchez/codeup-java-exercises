@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 public class CollectionsLecture {
 
@@ -135,9 +134,10 @@ public class CollectionsLecture {
         // List vs. ArrayList (Polymorphism)
 
 //        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList("bob", "steve", "justin"));
+////        System.out.println(arrayList);
 //        LinkedList<String> linkedList = new LinkedList<>(Arrays.asList("bob", "steve", "justin"));
-//
-//        printEachElement(linkedList);
+//        printEachElement(arrayList);
+////        printEachElement(linkedList);
 
 
         // Java Generics
@@ -148,29 +148,39 @@ public class CollectionsLecture {
 //        unsafe.add("hello");
 //        unsafe.add(true);
 //
+//        System.out.println(unsafe);
+////
 //        String str1 = (String) unsafe.get(2); // must explicitly cast
+//        System.out.println(str1);
 //        String str2 = (String) unsafe.get(0); // can lead to runtime exceptions
+//        System.out.println(str2);
 
         // ----------------------------- Hash Maps
 
         // creating hash maps
 
 //        Map<String, String> usernames = new HashMap<>();
-//        usernames.put("Ryan", "ryanorsinger");
-//        usernames.put("Luis", "MontealegreLuis");
-//        usernames.put("Zach", "zgulde");
-//        usernames.put("Fernando", "fmendozaro");
-//        usernames.put("Justin", "jreich5");
+//
+//        usernames.put("Ryan ", " ryanorsinger");
+//        usernames.put("Luis ", " MontealegreLuis");
+//        usernames.put("Zach ", " zgulde");
+//        usernames.put("Fernando ", " fmendozaro");
+//        usernames.put("Justin ", " jreich5");
+
 //        System.out.println(usernames);
 
         // getting values from and info about hash map
 
 //        System.out.println(usernames);
-//        System.out.println(usernames.get("Justin"));
+//        System.out.println(usernames.get("Justin "));
+//        System.out.println(usernames.get("Zach "));
+
 //        System.out.println(usernames.get("Phillip"));
 //        System.out.println(usernames.get("Justin"));
 //        System.out.println(usernames.getOrDefault("Fred", "gocodeup"));
-//        System.out.println(usernames.containsKey("Luis"));
+//        System.out.println(usernames.containsKey("Luis "));
+
+        // !!!!! Getting a list of map keys and then searching for a match
 
         // updating hash maps
 
@@ -186,14 +196,36 @@ public class CollectionsLecture {
 
         // removing pairs from hash map
 
-//        System.out.println(usernames.remove("Zach"));
+//        System.out.println(usernames.remove("Zach "));
 //        System.out.println(usernames);
-//        System.out.println(usernames.remove("Zach"));
+//        System.out.println(usernames.remove("Zach "));
 //        System.out.println(usernames);
 //        System.out.println(usernames);
 //        usernames.clear();
 //        System.out.println(usernames);
 //        System.out.println(usernames.isEmpty());
+
+        //
+        // TODO: Create a HashMap of three people in class with keys using their last name
+        //  and values at those keys using their first name.
+        //  Example
+        //  "Justin" could be returned from nameHashMap.get("Reich")
+        //
+        // BONUS TODO: Create a HashMap containing three people in the class with keys using their
+        //  first name and values that are an ArrayList of strings containing at least two
+        //  objects visible in their background.
+        //  Example
+        //  ArrayList<String> with values ("Codeup Sign", "Black Background", "Nothing Else")
+        //  from backgroundHashMap.get("Justin")
+
+        Map<String, String> lastNames = new HashMap<>();
+
+        lastNames.put("Jonathan ", " Sanchez");
+        lastNames.put("Hannah ", " Whelan");
+        lastNames.put("Kapena ", " Magallan");
+        System.out.println(lastNames);
+
+
 
 
     }
