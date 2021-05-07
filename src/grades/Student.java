@@ -11,7 +11,7 @@ public class Student {
         student1.addGrade(98);
         student1.addGrade(90);
         student1.addGrade(85);
-        System.out.println("student1.grades = " + student1.grades);
+        System.out.println("student1.getGrade() = " + student1.getGrade());
         System.out.println("student1.getGradeAverage() = " + student1.getGradeAverage());
 
         System.out.println();
@@ -21,19 +21,24 @@ public class Student {
         student2.addGrade(87);
         student2.addGrade(90);
         student2.addGrade(96);
-        System.out.println("student2.grades = " + student2.grades);
+        System.out.println("student2.getGrade() = " + student2.getGrade());
         System.out.println("student2.getGradeAverage() = " + student2.getGradeAverage());
 
 
     }
 
     private ArrayList<Integer> grades;
+
     private String name;
 
 
     public Student(String name) {
         this.name = name;
         this.grades = new ArrayList<>();
+    }
+
+    public ArrayList<Integer> getGrade() {
+        return grades;
     }
 
     public String getName() {
