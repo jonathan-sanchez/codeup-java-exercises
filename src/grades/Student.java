@@ -1,8 +1,6 @@
 package grades;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Student {
 
@@ -15,6 +13,8 @@ public class Student {
         student1.addGrade(85);
         System.out.println("student1.grades = " + student1.grades);
         System.out.println("student1.getGradeAverage() = " + student1.getGradeAverage());
+
+        System.out.println();
 
         Student student2 = new Student("Kapena");
         System.out.println("student2.getName() = " + student2.getName());
