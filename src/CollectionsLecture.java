@@ -159,15 +159,15 @@ public class CollectionsLecture {
 
         // creating hash maps
 
-//        Map<String, String> usernames = new HashMap<>();
-//
-//        usernames.put("Ryan ", " ryanorsinger");
-//        usernames.put("Luis ", " MontealegreLuis");
-//        usernames.put("Zach ", " zgulde");
-//        usernames.put("Fernando ", " fmendozaro");
-//        usernames.put("Justin ", " jreich5");
+        Map<String, String> usernames = new HashMap<>();
 
-//        System.out.println(usernames);
+        usernames.put("Ryan ", " ryanorsinger");
+        usernames.put("Luis ", " MontealegreLuis");
+        usernames.put("Zach ", " zgulde");
+        usernames.put("Fernando ", " fmendozaro");
+        usernames.put("Justin ", " jreich5");
+
+        System.out.println(usernames);
 
         // getting values from and info about hash map
 
