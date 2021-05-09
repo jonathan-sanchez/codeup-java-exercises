@@ -46,9 +46,7 @@ public class GradesApplication {
         students.put("sal-github", student3);
         students.put("mani-github", student4);
 
-//        System.out.println(students);
 
-        System.out.println();
 
 
 
