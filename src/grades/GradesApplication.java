@@ -9,10 +9,10 @@ public class GradesApplication {
 
         // Student 1
         Student student1 = new Student("Jonathan");
-        student1.addGrade(90);
-        student1.addGrade(87);
-        student1.addGrade(98);
-//        System.out.println("student1.getGrade() = " + student1.getGrade());
+//        student1.addGrade(90);
+//        student1.addGrade(87);
+//        student1.addGrade(98);
+        System.out.println("student1.getGrade() = " + student1.getGrade());
 //        System.out.println("student1.getName() = " + student1.getName());
 
         //Student 2
