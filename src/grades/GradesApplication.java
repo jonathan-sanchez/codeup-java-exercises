@@ -32,10 +32,12 @@ public class GradesApplication {
 //        System.out.println("student3.getName() = " + student3.getName());
 
         //Student 4
+
         Student student4 = new Student("Mani");
         student4.addGrade(76);
         student4.addGrade(89);
         student4.addGrade(93);
+
 //        System.out.println("student4.getGrade() = " + student4.getGrade());
 //        System.out.println("student4.getName() = " + student4.getName());
 
