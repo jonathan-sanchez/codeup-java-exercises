@@ -65,5 +65,21 @@ public class GradesApplication {
         System.out.println("What student would you like to see more information on? ");
 
 
+//        public class Magic {
+//            public static void main(String[] args) {
+//                //myNumber is the original number from here on out
+//                int myNumber = 10;
+//
+//                //stepOne - stepSix
+//                int stepOne = myNumber * myNumber;
+//                int stepTwo = stepOne + myNumber;
+//                int stepThree = stepTwo / myNumber;
+//                int stepFour = stepThree + 17;
+//                int stepFive = stepFour - myNumber;
+//                int stepSix = stepFive / 6;
+//                //print last step:
+//                System.out.println(stepSix);
+//            }
+//        }
     }
 }

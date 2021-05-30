@@ -26,6 +26,7 @@ public class Bob {
         }
 
         System.out.println("Anything else you wanna say to Bob?");
+        System.out.println("Bob is bored");
 
         String stillTalking = sc.nextLine();
 
@@ -38,6 +39,8 @@ public class Bob {
         }
         return grumpyOlBob();
     }
+
+
 }
 
 //For reference
